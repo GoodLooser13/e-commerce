@@ -15,3 +15,9 @@ navLinks.addEventListener("click", (e) => {
     navLinks.classList.remove("open");
     menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
+
+const navSearch = document.getElementById("nav-search")
+
+navSearch.addEventListener("click", (e) => {
+    navSearch.classList.toggle("open");
+});
